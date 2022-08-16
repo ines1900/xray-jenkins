@@ -1,7 +1,7 @@
-@scenario
+@TALAC-3
 Feature: Acces to the website
 
-  @tag1
+  @TEST_TALAC-4
   Scenario Outline: verify that the user can create a checklist
     Given browser is open user put the link of the website
     When write <todo> and clicks enter
